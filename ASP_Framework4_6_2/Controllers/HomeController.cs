@@ -11,6 +11,7 @@ namespace ASP_Framework4_6_2.Controllers
     {
         public ActionResult Index()
         {
+            // use target typed new CA
             Shared1 sh = new Shared1();
             return View();
         }
