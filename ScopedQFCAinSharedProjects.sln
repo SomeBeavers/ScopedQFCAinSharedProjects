@@ -17,9 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinked2", "UseLinked2\Us
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinked3", "UseLinked3\UseLinked3.csproj", "{4DCF0252-2379-4E40-A8C4-FEF516BF965A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPX", "ASPX\ASPX.csproj", "{77FAFA11-4208-4337-A960-070DCCCB3EE6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SharedProject\net6_sharp10_lib.projitems*{3e464f62-dc70-4056-bb3a-95108b5beac1}*SharedItemsImports = 4
+		SharedProject\net6_sharp10_lib.projitems*{77fafa11-4208-4337-a960-070dcccb3ee6}*SharedItemsImports = 4
 		SharedProject\net6_sharp10_lib.projitems*{f51dd17f-71ba-4c51-8592-070a2b4dab44}*SharedItemsImports = 13
 		SharedProject\net6_sharp10_lib.projitems*{f6638338-7581-4da6-ab91-77fc728d3d09}*SharedItemsImports = 5
 	EndGlobalSection
@@ -52,6 +55,10 @@ Global
 		{4DCF0252-2379-4E40-A8C4-FEF516BF965A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DCF0252-2379-4E40-A8C4-FEF516BF965A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DCF0252-2379-4E40-A8C4-FEF516BF965A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FAFA11-4208-4337-A960-070DCCCB3EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FAFA11-4208-4337-A960-070DCCCB3EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FAFA11-4208-4337-A960-070DCCCB3EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FAFA11-4208-4337-A960-070DCCCB3EE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
