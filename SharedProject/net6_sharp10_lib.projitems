@@ -9,5 +9,6 @@
     <Import_RootNamespace>net6_sharp10_lib</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Shared1.cs" />
   </ItemGroup>
 </Project>

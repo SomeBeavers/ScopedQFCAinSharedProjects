@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using net6_sharp10_lib;
 
 namespace ASP_Framework4_6_2.Controllers
 {
@@ -10,6 +11,7 @@ namespace ASP_Framework4_6_2.Controllers
     {
         public ActionResult Index()
         {
+            Shared1 sh = new Shared1();
             return View();
         }
 
