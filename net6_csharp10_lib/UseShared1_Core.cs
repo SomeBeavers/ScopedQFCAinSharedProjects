@@ -7,5 +7,6 @@ public class UseShared1_Core
     {
         // use target typed new CA
         Shared1 shared1 = new Shared1();
+        //shared1.Name = "";
     }
 }

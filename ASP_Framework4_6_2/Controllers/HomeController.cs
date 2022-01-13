@@ -9,10 +9,15 @@ namespace ASP_Framework4_6_2.Controllers
 {
     public class HomeController : Controller
     {
+
         public ActionResult Index()
         {
             // use target typed new CA
-            Shared1 sh = new Shared1();
+            Shared1 shared1 = new Shared1();
+
+            //
+            shared1.Name = "";
+
             return View();
         }
 
@@ -29,5 +34,15 @@ namespace ASP_Framework4_6_2.Controllers
 
             return View();
         }
+    }
+
+    class MyClass
+    {
+        public MyClass(string name)
+        {
+            Name = name;
+        }
+
+        public string Name { get; set; }
     }
 }
