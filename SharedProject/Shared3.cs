@@ -8,10 +8,11 @@
         {
         int notAccessed = 0;
 #if NET6_0
-
+int notAccessed1 = 0;
             var s = new Shared3().Name.ToString();
 #else
-        var s = new Shared3().Name.ToString();
+            int notAccessed2 = 0;
+            var s = new Shared3().Name.ToString();
 #endif
         }
     }
