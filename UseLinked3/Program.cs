@@ -11,6 +11,7 @@ namespace UseLinked3
     {
         public Program(string name)
         {
+            int t = 1;
             Name = name;
         }
 
