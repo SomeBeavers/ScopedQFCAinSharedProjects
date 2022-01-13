@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Preprocessor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Shared1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared2.cs" />
   </ItemGroup>
 </Project>
