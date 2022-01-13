@@ -24,16 +24,18 @@ int notAccessed1 = 0;
         }
 
 #if NET6_0
+private string _name3;
         public string Name3
         {
-            get => _name2;
-            set => _name2 = value;
+            get => _name3;
+            set => _name3 = value;
         }
 #else
+        private string _name4;
         public string Name4
         {
-            get => _name2;
-            set => _name2 = value;
+            get => _name4;
+            set => _name4 = value;
         }
 #endif
     }
