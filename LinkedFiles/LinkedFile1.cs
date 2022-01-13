@@ -1,6 +1,7 @@
-﻿namespace LinkedFiles;
-
-public class LinkedFile1
+﻿namespace LinkedFiles
 {
+    public class LinkedFile1
+    {
     
+    }
 }

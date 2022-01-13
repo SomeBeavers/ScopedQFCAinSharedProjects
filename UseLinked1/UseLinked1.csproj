@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="..\LinkedFiles\LinkedFile1.cs" Link="LinkedFile1.cs" />
+  </ItemGroup>
+
 </Project>
