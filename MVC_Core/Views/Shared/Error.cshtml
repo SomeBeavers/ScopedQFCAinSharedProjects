@@ -25,6 +25,15 @@
     and restarting the app.
 </p>
 @{
-    string name = new Shared4().PublicMethod();
+    var innerClass = new Shared4.InnerClass();
+    if (innerClass!=null && innerClass.Name != null)
+    {
+        string name = new Shared4().PublicMethod(innerClass);
+    }
+    else
+    {
+        string name = null;
+    }
 }
-<p>@name</p>
+@*<p>@name</p>
+*@

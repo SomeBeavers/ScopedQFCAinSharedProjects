@@ -2,9 +2,18 @@
 {
     public class Shared4
     {
-        public string PublicMethod()
+        public string PublicMethod(InnerClass? innerClass)
         {
+            if (innerClass != null && innerClass.Name == "test")
+            {
+                Console.WriteLine(innerClass.Name);
+            }
             throw new NotImplementedException();
+        }
+
+        public class InnerClass
+        {
+            public string Name { get; set; }
         }
     }
 }
