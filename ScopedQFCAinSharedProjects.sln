@@ -9,21 +9,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "net6_csharp10_lib", "net6_c
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{F51DD17F-71BA-4C51-8592-070A2B4DAB44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedFiles", "LinkedFiles\LinkedFiles.csproj", "{7F6858DB-B788-48EE-B8FC-8159E27BEF5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedFiles", "LinkedFiles\LinkedFiles.csproj", "{7F6858DB-B788-48EE-B8FC-8159E27BEF5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinked1", "UseLinked1\UseLinked1.csproj", "{FCFB3703-0AD3-40BA-A84D-1140195EEFD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseLinked1", "UseLinked1\UseLinked1.csproj", "{FCFB3703-0AD3-40BA-A84D-1140195EEFD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinked2", "UseLinked2\UseLinked2.csproj", "{42C2DBB4-7870-4317-A67C-5AA28A586494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseLinked2", "UseLinked2\UseLinked2.csproj", "{42C2DBB4-7870-4317-A67C-5AA28A586494}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseLinked3", "UseLinked3\UseLinked3.csproj", "{4DCF0252-2379-4E40-A8C4-FEF516BF965A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPX", "ASPX\ASPX.csproj", "{77FAFA11-4208-4337-A960-070DCCCB3EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor", "Blazor\Blazor.csproj", "{DFAD4789-3180-4BFC-A567-79816F34EBD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor", "Blazor\Blazor.csproj", "{DFAD4789-3180-4BFC-A567-79816F34EBD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_Core", "MVC_Core\MVC_Core.csproj", "{5B04D306-506A-4C6E-B5CF-4EBE7D7DF8C8}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		SharedProject\net6_sharp10_lib.projitems*{3e464f62-dc70-4056-bb3a-95108b5beac1}*SharedItemsImports = 4
+		SharedProject\net6_sharp10_lib.projitems*{5b04d306-506a-4c6e-b5cf-4ebe7d7df8c8}*SharedItemsImports = 5
 		SharedProject\net6_sharp10_lib.projitems*{77fafa11-4208-4337-a960-070dcccb3ee6}*SharedItemsImports = 4
 		SharedProject\net6_sharp10_lib.projitems*{dfad4789-3180-4bfc-a567-79816f34ebd9}*SharedItemsImports = 5
 		SharedProject\net6_sharp10_lib.projitems*{f51dd17f-71ba-4c51-8592-070a2b4dab44}*SharedItemsImports = 13
@@ -66,6 +69,10 @@ Global
 		{DFAD4789-3180-4BFC-A567-79816F34EBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFAD4789-3180-4BFC-A567-79816F34EBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFAD4789-3180-4BFC-A567-79816F34EBD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B04D306-506A-4C6E-B5CF-4EBE7D7DF8C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B04D306-506A-4C6E-B5CF-4EBE7D7DF8C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B04D306-506A-4C6E-B5CF-4EBE7D7DF8C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B04D306-506A-4C6E-B5CF-4EBE7D7DF8C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
