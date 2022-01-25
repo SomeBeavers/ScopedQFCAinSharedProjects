@@ -1,8 +1,10 @@
-﻿namespace net6_sharp10_lib
+﻿using System;
+
+namespace net6_sharp10_lib
 {
     public class Shared4
     {
-        public string PublicMethod(InnerClass? innerClass)
+        public string PublicMethod(InnerClass innerClass)
         {
             if (innerClass != null && innerClass.Name == "test")
             {
