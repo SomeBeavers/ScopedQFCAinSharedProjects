@@ -14,5 +14,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Shared2.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Shared3.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Shared4.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Shared5.cs" />
   </ItemGroup>
 </Project>
